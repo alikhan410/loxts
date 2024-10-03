@@ -20,7 +20,8 @@ To get started with Loxts, follow these steps:
 
    ```bash
    git clone https://github.com/yourusername/loxts.git
-   cd loxts
+   cd lox
+   cd src
    ```
 
 2. Install the dependencies:
@@ -29,24 +30,12 @@ To get started with Loxts, follow these steps:
    npm install
    ```
 
-3. Compile the TypeScript code:
-
-   ```bash
-   npm run build
-   ```
-
 ## Usage
 
-To run the Lox interpreter, use the following command:
+You can run the interpreter with a specific Lox file:
 
 ```bash
-npm start
-```
-
-You can also run the interpreter with a specific Lox file:
-
-```bash
-npm start -- path/to/yourfile.lox
+ts-node -- path/to/yourfile.lox
 ```
 
 ## Examples
